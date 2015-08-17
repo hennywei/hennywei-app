@@ -1,0 +1,21 @@
+{
+	"name" : "myapp",
+	"version" : "1.0.0",
+	"deps" : {
+		"h5lib" : "../h5lib:1.0.0",
+		"module" : "../module:0.0.2"
+	},
+	// 第三方开发者使用monkeys install安装组件 配置
+	// 决定拉取组件的地址
+	"widget" : {
+		"base" : "http://p1.cdn.pengpengla.com/module/",
+		"version" : "1.0.6"
+	},
+
+	// 对build操作的一些声明
+	"build" : {
+		// 是否对基于amdjs文件进行合并操作
+		// module库中一般需要设置为false
+		"amdJsCombine" : true
+	}
+}

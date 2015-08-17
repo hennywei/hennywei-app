@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN" xml:lang="zh-CN">
+<head>
+<title>demo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" href="http://local.cdn.pengpengla.com/myapp/@@version/css/index.css" />
+<script src="http://p1.cdn.pengpengla.com/h5lib/1.0.2/js/seed.js"></script>
+</head>
+
+<body>
+
+<div id="wrap">
+    demo
+</div>
+
+<script>
+    FastClick.attach(document.body);$.fn.tap=$.fn.click;
+    require.config({
+        baseUrl : 'http://local.cdn.pengpengla.com/myapp/@@version/js/'
+    });
+    require(['index']);
+    
+</script>
+</body>
+</html>
+
